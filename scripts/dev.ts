@@ -10,7 +10,7 @@ import { createServer } from 'node:http';
 import { extname, join, normalize } from 'node:path';
 
 const PORT = Number(process.env.PORT || 5173);
-const BASE = process.env.BASE_PATH || '/one-stop-insurance/';
+const BASE = process.env.BASE_PATH || '';
 const DIST = join(process.cwd(), 'dist');
 const WATCH = !process.argv.includes('--no-watch');
 const env = { ...process.env, BASE_PATH: BASE, SITE_URL: process.env.SITE_URL || `http://localhost:${PORT}${BASE}` };
