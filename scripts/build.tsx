@@ -34,8 +34,10 @@ const DIST = join(ROOT, 'dist');
 const DICTS: Record<Lang, Dictionary> = { en, hi, mr };
 
 const norm = (p: string) => (p.endsWith('/') ? p : p + '/');
-const BASE = norm(process.env.BASE_PATH || '/one-stop-insurance/');
-const SITE_URL = norm(process.env.SITE_URL || `https://YOUR-USERNAME.github.io${BASE}`);
+const BASE = norm(process.env.BASE_PATH || '/');
+const SITE_URL = norm(
+  process.env.SITE_URL || 'https://one-stop-insurance.vercel.app/'
+);
 const ORIGIN = new URL(SITE_URL).origin;
 const abs = (path: string) => ORIGIN + path; // path already contains BASE
 const BUILD_YEAR = new Date().getFullYear();
