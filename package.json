@@ -1,0 +1,31 @@
+{
+  "name": "one-stop-insurance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One Stop Insurance — Phase 1 informational vehicle insurance website (English, Hindi, Marathi).",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "build": "tsx scripts/build.tsx",
+    "preview": "tsx scripts/dev.ts --no-watch",
+    "typecheck": "tsc --noEmit",
+    "icons": "tsx scripts/icons.ts",
+    "images": "tsx scripts/images.ts"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "^0.28.0",
+    "sharp": "^0.35.0",
+    "tsx": "^4.20.0",
+    "typescript": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

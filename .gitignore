@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output (GitHub Actions builds it fresh)
+dist/
+
+# Logs & caches
+npm-debug.log*
+*.log
+.cache/
+*.tsbuildinfo
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*

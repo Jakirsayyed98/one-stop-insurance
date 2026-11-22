@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#102B50"/>
+  <text x="256" y="286" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="138" letter-spacing="3" fill="#FFFFFF">OSI</text>
+  <rect x="152" y="322" width="208" height="20" rx="10" fill="#F28C28"/>
+</svg>
